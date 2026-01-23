@@ -1,0 +1,158 @@
+{
+  "conferences": [
+    {
+      "year": "2025",
+      "items": [
+        {
+          "id": "pub-2025-1",
+          "title": "Applying machine learning technique to study the influence of financial decisions on firm value",
+          "first-authors": ["Trang Do Thi Van"],
+          "other-authors": ["Thang Doan Viet", "Duong Nguyen Canh", "Huyen Pham Ngoc", "Nguyen Thi Xuan"],
+          "venue": "Edelweiss Applied Science and Technology",
+          "public-date": "Sep 2025",
+          "link": "https://ideas.repec.org/a/ajp/edwast/v9y2025i5p1091-1103id7090.html",
+          "image": "",
+          "category": "Economics",
+          "notes": [],
+          "abstract": "This study investigates the impact of financial decisions on the value of listed firms in Vietnam by employing both traditional statistical methods and advanced machine learning models. Using data from 646 firms listed on the Vietnamese Stock Exchange from 2012 to 2022, the research applies various predictive models, including traditional regression methods and machine learning approaches such as Linear Regression (LR), LASSO, Generalized Additive Model (GAM), Random Forests (RF), Gradient Boosting Regression Trees (GBRT), and Deep Neural Networks (DNN). The empirical results suggest a positive correlation between investment and financing decisions and firm value during the research period. Furthermore, the impact of dividend payment decisions on company value was statistically insignificant. Notably, machine learning models, particularly GBRT, outperform traditional statistical models, demonstrating superior predictive accuracy and robustness in capturing complex financial patterns. The study underscores the growing relevance of machine learning in financial analysis, highlighting its ability to enhance forecasting and strategic decision-making. These findings provide valuable insights for corporate managers, investors, and policymakers in optimizing financial strategies to maximize firm value. Moreover, the integration of machine learning into financial modeling can mitigate limitations associated with conventional statistical methods, particularly in handling non-linear relationships and large-scale financial datasets."
+        },
+        {
+          "id": "pub-2025-2",
+          "title": "ToVo: Toxicity Taxonomy via Voting",
+          "first-authors": ["Tinh Son Luong", "Thanh-Thien Le", "Thang Doan Viet"],
+          "other-authors": ["Linh Ngo Van", "Thien Huu Nguyen", "Diep Thi-Ngoc Nguyen"],
+          "venue": "NAACL 2025 toFindings (Acceptance Rate: 37%)",
+          "public-date": "Apr 2025",
+          "link": "https://aclanthology.org/2025.findings-naacl.11.pdf",
+          "image": "",
+          "category": "CS",
+          "notes": [],
+          "abstract": "Existing toxic detection models face significant limitations, such as lack of transparency, customization, and reproducibility. These challenges stem from the closed-source nature of their training data and the paucity of explanations for their evaluation mechanism. To address these issues, we propose a dataset creation mechanism that integrates voting and chain-of-thought processes, producing a high-quality open-source dataset for toxic content detection. Our methodology ensures diverse classification metrics for each sample and includes both classification scores and explanatory reasoning for the classifications. We utilize the dataset created through our proposed mechanism to train our model, which is then compared against existing widely-used detectors. Our approach not only enhances transparency and customizability but also facilitates better fine-tuning for specific use cases. This work contributes a robust framework for developing toxic content detection models, emphasizing openness and adaptability, thus paving the way for more effective and user-specific content moderation solutions."
+        },
+        {
+          "id": "pub-2025-3",
+          "title": "ToVo: Toxicity Taxonomy via Voting",
+          "first-authors": ["Zichong Wang"],
+          "other-authors": ["Zhibo Chu", "Thang Viet Doan", "Shaowei Wang", "Yongkai Wu", "Vasile Palade", "Wenbin Zhang"],
+          "venue": "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI 2025) (Acceptance Rate: 23.4%)",
+          "public-date": "Apr 2025",
+          "link": "https://ojs.aaai.org/index.php/AAAI/article/view/35071/37226",
+          "image": "",
+          "category": "CS",
+          "notes": [],
+          "abstract": "Learning high-level representations for graphs is crucial for tasks like node classification, where graph pooling aggregates node features to provide a holistic view that enhances predictive performance. Despite numerous methods that have been proposed in this promising and rapidly developing research field, most efforts to generalize the pooling operation to graphs are primarily performance-driven, with fairness issues largely overlooked: i) the process of graph pooling could exacerbate disparities in distribution among various subgroups; ii) the resultant graph structure augmentation may inadvertently strengthen intra-group connectivity, leading to unintended inter-group isolation. To this end, this paper extends the initial effort on fair graph pooling to the development of fair graph neural networks, while also providing a unified framework to collectively address group and individual graph fairness. Our experimental evaluations on multiple datasets demonstrate that the proposed method not only outperforms state-of-the-art baselines in terms of fairness but also achieves comparable predictive performance."
+        }
+      ]
+    },
+    {
+      "year": "2024",
+      "items": [
+        {
+            "id": "pub-2024-1",
+            "title": "The impact of digital transformation on credit risk of commercial banks in Vietnam",
+            "first-authors": ["Thang Viet Doan"],
+            "other-authors": ["Anh Hoang Thi Ngoc", "Linh Phung Trang", "Huong Nguyen Thu"],
+            "venue": "Journal of Economic and Banking Studies (JEBS)",
+            "public-date": "May 2024",
+            "link": "https://hvnh.edu.vn/jebs/en/jebsno7/the-impact-of-digital-transformation-on-credit-risk-of-commercial-banks-in-vietnam-345.html",
+            "image": "",
+            "category": "Economics",
+            "notes": [],
+            "abstract": "In Vietnam, digital transformation has been considered as the leading strategy of commercial banks, especially in terms of credit risks. Therefore, they must identify how their digital transformation affects their credit risks to maintain effective operation and steady growth in a complex and changing market environment. Our study takes 29 commercial banks in Vietnam from 2014 to 2022 as the research object to test the impact of bank digital transformation on credit risk. In particular, the level of digital transforma tion of banks is measured by the ICT Index. The ICT Index is the official measure that evaluates the level of information technology application na tionwide each year, with separate indicators for ministries and branches. Banks in Vietnam also use the ICT Index to assess their readiness and ability to apply information technology in the digital transformation process. Various regression models including Pooled Ordinary Least Squares (OLS), Fixed Effects Model (FEM), Random Effects Model (REM), Generalized Least Squares (GLS) are applied using STATA 17. Research results show that credit risk is affected by 5 factors: the information technology development and application readiness index (ICT Index), inflation rate (INF), return on equity (ROE), loans to customers (LOAN), and operational diversification (NIIC). On that basis, the study proposes recommendations for commercial banks to promote their digital transformation process. In addition, the state and policymakers also have appropriate measures to promote digital transfor mation in the Vietnamese banking system."
+        },
+        {
+            "id": "pub-2024-2",
+            "title": "Monetary policy contributes to preventing the zombification of firms in Vietnam",
+            "first-authors": ["Thang Viet Doan"],
+            "other-authors": ["Anh Hoang Thi Ngoc", "Ha Nguyen Thi Thu", "Hieu Nguyen Gia", "Nhi Doan Quynh"],
+            "venue": "The Banking Review of the State Bank of Vietnam (SBV)",
+            "public-date": "May 2024",
+            "link": "https://tapchinganhang.gov.vn/chinh-sach-tien-te-gop-phan-han-che-su-hinh-thanh-cac-doanh-nghiep-zombie-tai-viet-nam-6649.html",
+            "image": "",
+            "category": "Economics",
+            "notes": [],
+            "abstract": "Bài nghiên cứu này nhằm phân tích ảnh hưởng của chính sách tiền tệ góp phần hạn chế sự hình thành các doanh nghiệp zombie tại Việt Nam. Nghiên cứu sử dụng dữ liệu thứ cấp được thu thập từ 646 doanh nghiệp niêm yết trên sàn chứng khoán Việt Nam trong giai đoạn từ 2013 - 2022. Kết quả của nghiên cứu chỉ ra rằng: Lãi suất và tỉ lệ doanh nghiệp zombie thể hiện mối quan hệ cùng chiều trong giai đoạn 2013 - 2017; nhưng trong giai đoạn 2017 - 2022 lại chứng kiến mối quan hệ ngược chiều. Điều này chứng tỏ việc nới lỏng lãi suất trong điều hành chính sách tiền tệ của Ngân hàng Nhà nước Việt Nam (NHNN) đã mang lại nhiều lợi ích cho các doanh nghiệp và góp phần ngăn chặn sự hình thành doanh nghiệp zombie. Tuy nhiên, ở góc độ các doanh nghiệp, sau khi đã được tiếp cận nguồn vốn lãi suất thấp từ ngân hàng cần có giải pháp để sử dụng dòng vốn sao cho hiệu quả, tránh trở thành các doanh nghiệp zombie. Trên cơ sở đó, bài viết đề xuất một số khuyến nghị đối với NHNN, các doanh nghiệp để có thể phát huy hiệu lực trong điều hành chính sách tiền tệ cũng như sự phát triển bền vững của các doanh nghiệp."
+        },
+        {
+          "id": "pub-2024-3",
+          "title": "Zero-Knowledge-Proof-Based Protocol Connecting Traditional Finance to Decentralized Finance",
+          "first-authors": ["Thang Viet Doan"],
+          "other-authors": ["Tuan-Dat Trinh"],
+          "venue": "The International Conference on Intelligent Systems & Networks",
+          "public-date": "Mar 2024",
+          "link": "https://link.springer.com/chapter/10.1007/978-981-97-5504-2_48",
+          "image": "",
+          "category": "CS",
+          "notes": [],
+          "abstract": "The rapid growth of the cryptocurrency market presents a compelling opportunity for traditional financial institutions to expand their customer base and services. To this end, they must collect the decentralized finance (DeFi) positions of their customers, but the customers are not willing to disclose their wallet addresses. To address this issue and connect the traditional financial market to the cryptocurrency market, this paper introduces an additional role for blockchain data analysis systems to avoid the direct connection between blockchain users and traditional financial institutions. There arise three challenges: (1) the user wallet addresses should not be disclosed to the institutions; (2) the institution must have confidence in the user DeFi positions provided by the blockchain data analysis system; and (3) the protocol must be flexible enough to be applied to a range of scenarios. To address these challenges, this paper proposes a tripartite protocol based on Zero-knowledge Proof and Merkle tree data structure. Leaf nodes in the Merkle tree store information on users’ DeFi positions. Zero-knowledge Proof helps users prove the accuracy and origin of their DeFi positions in the leaf nodes without revealing their wallet addresses. This paper discusses the strengths and limitations of the protocol, as well as the feasibility of applying the protocol in practice."
+        },
+        {
+            "id": "pub-2024-4",
+            "title": "History, Development, and Principles of Large Language Models-An Introductory Survey",
+            "first-authors": ["Zichong Wang"],
+            "other-authors": ["Zhibo Chu", "Thang Viet Doan", "Shiwen Ni", "Min Yang", "Wenbin Zhang"],
+            "venue": "AI and Ethics, 2024",
+            "public-date": "Feb 2024",
+            "link": "https://link.springer.com/chapter/10.1007/978-981-97-5504-2_48",
+            "image": "",
+            "category": "CS",
+            "notes": [],
+            "abstract": "The rapid growth of the cryptocurrency market presents a compelling opportunity for traditional financial institutions to expand their customer base and services. To this end, they must collect the decentralized finance (DeFi) positions of their customers, but the customers are not willing to disclose their wallet addresses. To address this issue and connect the traditional financial market to the cryptocurrency market, this paper introduces an additional role for blockchain data analysis systems to avoid the direct connection between blockchain users and traditional financial institutions. There arise three challenges: (1) the user wallet addresses should not be disclosed to the institutions; (2) the institution must have confidence in the user DeFi positions provided by the blockchain data analysis system; and (3) the protocol must be flexible enough to be applied to a range of scenarios. To address these challenges, this paper proposes a tripartite protocol based on Zero-knowledge Proof and Merkle tree data structure. Leaf nodes in the Merkle tree store information on users’ DeFi positions. Zero-knowledge Proof helps users prove the accuracy and origin of their DeFi positions in the leaf nodes without revealing their wallet addresses. This paper discusses the strengths and limitations of the protocol, as well as the feasibility of applying the protocol in practice."
+        }
+      ]
+    }
+  ],
+  "tutorials": [
+    {
+      "year": "2024",
+      "items": [
+        {
+          "id": "tutorial-2024-1",
+          "title": "Fairness in large language models in three hours",
+          "first-authors": ["Thang Doan Viet"], 
+          "other-authors": ["Zichong Wang", "Nhat Nguyen Minh Hoang", "Wenbin Zhang"],
+          "venue": "Proceedings of the 33rd ACM International Conference on Information and Knowledge Management (CIKM 2024) (Acceptance Rate: 26%)",
+          "public-date": "Oct 2024",
+          "link": "https://dl.acm.org/doi/pdf/10.1145/3627673.3679090",
+          "image": "",
+          "category": "CS",
+          "notes": ["Presented at The 33rd ACM International Conference on Information and Knowledge Management (CIKM 2024), Boise, Idaho, 2024"],
+          "abstract": "Large Language Models (LLMs) have demonstrated remarkable success across various domains but often lack fairness considerations, potentially leading to discriminatory outcomes against marginalized populations. Unlike fairness in traditional machine learning, fairness in LLMs involves unique backgrounds, taxonomies, and fulfillment techniques. This tutorial provides a systematic overview of recent advances in the literature concerning fair LLMs, beginning with real-world case studies to introduce LLMs, followed by an analysis of bias causes therein. The concept of fairness in LLMs is then explored, summarizing the strategies for evaluating bias and the algorithms designed to promote fairness. Additionally, resources for assessing bias in LLMs, including toolkits and datasets, are compiled, and current research challenges and open questions in the field are discussed. The repository is available at https://github.com/LavinWong/Fairness-in-Large-LanguageModels."
+        }
+      ]
+    }
+  ],
+  "preprints": [
+    {
+      "year": "2024",
+      "items": [
+        {
+          "id": "preprint-2024-1",
+          "title": "An experimental study on fairness-aware machine learning for credit scoring problem",
+          "first-authors": ["Huyen Giang Thi Thu"], 
+          "other-authors": ["Thang Doan Viet", "Tai Le Quy"],
+          "venue": "arXiv preprint arXiv:2412.20298",
+          "public-date": "Dect 2024",
+          "link": "https://arxiv.org/pdf/2412.20298",
+          "image": "",
+          "category": "CS",
+          "notes": [],
+          "abstract": "Digitalization of credit scoring is an essential requirement for financial organizations and commercial banks, especially in the context of digital transformation. Machine learning techniques are commonly used to evaluate customers' creditworthiness. However, the predicted outcomes of machine learning models can be biased toward protected attributes, such as race or gender. Numerous fairness-aware machine learning models and fairness measures have been proposed. Nevertheless, their performance in the context of credit scoring has not been thoroughly investigated. In this paper, we present a comprehensive experimental study of fairness-aware machine learning in credit scoring. The study explores key aspects of credit scoring, including financial datasets, predictive models, and fairness measures. We also provide a detailed evaluation of fairness-aware predictive models and fairness measures on widely used financial datasets."
+        },
+        {
+            "id": "preprint-2024-2",
+            "title": "Fairness definitions in language models explained",
+            "first-authors": ["Thang Doan Viet"], 
+            "other-authors": ["Zhibo Chu", "Zichong Wang", "Wenbin Zhang"],
+            "venue": "arXiv preprint arXiv:2407.18454",
+            "public-date": "Jul 2024",
+            "link": "https://arxiv.org/pdf/2407.18454",
+            "image": "",
+            "category": "CS",
+            "notes": [],
+            "abstract": "Language Models (LMs) have demonstrated exceptional performance across various Natural Language Processing (NLP) tasks. Despite these advancements, LMs can inherit and amplify societal biases related to sensitive attributes such as gender and race, limiting their adoption in real-world applications. Therefore, fairness has been extensively explored in LMs, leading to the proposal of various fairness notions. However, the lack of clear agreement on which fairness definition to apply in specific contexts (e.g., medium-sized LMs versus large-sized LMs) and the complexity of understanding the distinctions between these definitions can create confusion and impede further progress. To this end, this paper proposes a systematic survey that clarifies the definitions of fairness as they apply to LMs. Specifically, we begin with a brief introduction to LMs and fairness in LMs, followed by a comprehensive, up-to-date overview of existing fairness notions in LMs and the introduction of a novel taxonomy that categorizes these concepts based on their foundational principles and operational distinctions. We further illustrate each definition through experiments, showcasing their practical implications and outcomes. Finally, we discuss current research challenges and open questions, aiming to foster innovative ideas and advance the field. The implementation and additional resources are publicly available at https://github.com/LavinWong/Fairness-in-Large-LanguageModels/tree/main/definitions."
+        }
+      ]
+    }
+  ]
+}

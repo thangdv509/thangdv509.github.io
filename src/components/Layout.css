@@ -1,0 +1,30 @@
+.layout {
+  min-height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+[data-theme="dark"] .layout {
+  background: linear-gradient(135deg, #0a1628 0%, #1a2332 50%, #0f1b2e 100%);
+  background-attachment: fixed;
+  color: #e0e8f0;
+}
+
+[data-theme="light"] .layout {
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 50%, #f5f7fa 100%);
+  background-attachment: fixed;
+  color: #1a1a1a;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 2rem;
+  padding-top: 80px;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding: 1.5rem 1rem;
+    padding-top: 70px;
+  }
+}
