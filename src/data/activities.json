@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "images": [],
+    "event": "Sample Event 1",
+    "organization": "Sample Organization",
+    "link": "https://example.com"
+  },
+  {
+    "id": 2,
+    "images": [],
+    "event": "Sample Event 2",
+    "organization": "Sample Organization",
+    "link": "https://example.com"
+  },
+  {
+    "id": 3,
+    "images": [],
+    "event": "Sample Event 3",
+    "organization": "Sample Organization",
+    "link": "https://example.com"
+  }
+]

@@ -101,6 +101,10 @@ function Home() {
             <span className="news-date">Jan 2026</span>
             <span className="news-content">Welcome to my webpage! I'm exicited to share my research and work with you 🤩🤩🤩</span>
           </li>
+          <li>
+            <span className="news-date">28 May 2026</span>
+            <span className="news-content">My paper titled <strong>"An Experimental Study on Fairness-aware Machine Learning for Credit Scoring Problems"</strong> in collaboration with <i>Mrs. Huyen Giang Thi Thu</i> and <i>Mr. Tai Le Quy</i> has been accepted for Digital Finance (Q2)!</span>
+          </li>
         </ul>
       </section>
     </div>
