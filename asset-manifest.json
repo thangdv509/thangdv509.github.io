@@ -1,21 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.2804fc7a.css",
-    "main.js": "/static/js/main.d43e2bf4.js",
+    "main.js": "/static/js/main.9149d821.js",
     "static/js/787.c0676f0d.chunk.js": "/static/js/787.c0676f0d.chunk.js",
     "static/media/Homepage_avatar.png": "/static/media/Homepage_avatar.dbaa31cf395bdd753645.png",
     "static/media/TechMaker1.jpg": "/static/media/TechMaker1.1e28a4b6abbab3710224.jpg",
     "static/media/TechMaker3.jpg": "/static/media/TechMaker3.85e2c97799c045d5e8a3.jpg",
-    "static/media/CommunityDay.jpg": "/static/media/CommunityDay.f4557be576d2425de2db.jpg",
+    "static/media/CommunityDay2.jpg": "/static/media/CommunityDay2.6f38b322707a2f3aa449.jpg",
+    "static/media/CommunityDay3.jpg": "/static/media/CommunityDay3.46e70493ab1eef363eb9.jpg",
+    "static/media/CommunityDay5.jpg": "/static/media/CommunityDay5.94ec8aba4d598159fe37.jpg",
+    "static/media/CommunityDay4.jpg": "/static/media/CommunityDay4.f328ad63880484bc66c8.jpg",
+    "static/media/CommunityDay1.jpg": "/static/media/CommunityDay1.f4557be576d2425de2db.jpg",
     "static/media/TechMaker2.jpg": "/static/media/TechMaker2.e2ee032589acda829f5e.jpg",
     "static/media/TechMaker4.jpeg": "/static/media/TechMaker4.679906e78b37ed28a211.jpeg",
     "index.html": "/index.html",
     "main.2804fc7a.css.map": "/static/css/main.2804fc7a.css.map",
-    "main.d43e2bf4.js.map": "/static/js/main.d43e2bf4.js.map",
+    "main.9149d821.js.map": "/static/js/main.9149d821.js.map",
     "787.c0676f0d.chunk.js.map": "/static/js/787.c0676f0d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2804fc7a.css",
-    "static/js/main.d43e2bf4.js"
+    "static/js/main.9149d821.js"
   ]
 }
