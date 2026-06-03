@@ -3,7 +3,11 @@ import TechMaker2 from '../assets/activities/TechMaker/TechMaker2.jpg';
 import TechMaker3 from '../assets/activities/TechMaker/TechMaker3.jpg';
 import TechMaker4 from '../assets/activities/TechMaker/TechMaker4.jpeg';
 
-import CommunityDay from '../assets/activities/AWSCommunityDay/CommunityDay.jpg';
+import CommunityDay1 from '../assets/activities/AWSCommunityDay/CommunityDay1.jpg';
+import CommunityDay2 from '../assets/activities/AWSCommunityDay/CommunityDay2.jpg';
+import CommunityDay3 from '../assets/activities/AWSCommunityDay/CommunityDay3.jpg';
+import CommunityDay4 from '../assets/activities/AWSCommunityDay/CommunityDay4.jpg';
+import CommunityDay5 from '../assets/activities/AWSCommunityDay/CommunityDay5.jpg';
 
 const activities = [
   {
@@ -16,7 +20,7 @@ const activities = [
   },
   {
     id: 2,
-    images: [CommunityDay],
+    images: [CommunityDay1, CommunityDay2, CommunityDay3, CommunityDay4, CommunityDay5],
     event: "AWS First Cloud AI Journey Community Day",
     organization: "AWS First Cloud AI Journey",
     date: "30 May 2026",
