@@ -14,11 +14,11 @@ import FairnessInLLMsIdaho1 from '../assets/activities/FairnessInLLMsIdaho/Fairn
 const activities = [
   {
     id: 1,
-    images: [FairnessInLLMsIdaho1],
-    event: "Oral Presentation at CIKM 2024 about Fairness in Large Language Models.",
-    organization: "Boise, Idaho, USA",
-    date: "Oct 2024",
-    link: "",
+    images: [CommunityDay1, CommunityDay2, CommunityDay3, CommunityDay4, CommunityDay5],
+    event: "AWS First Cloud AI Journey Community Day",
+    organization: "AWS First Cloud AI Journey",
+    date: "30 May 2026",
+    link: "https://www.facebook.com/share/v/1KBqeqq7Ej/",
   },
   {
     id: 2,
@@ -28,13 +28,13 @@ const activities = [
     date: "21 May 2026",
     link: "https://www.facebook.com/share/v/1KBqeqq7Ej/",
   },
-  {
+    {
     id: 3,
-    images: [CommunityDay1, CommunityDay2, CommunityDay3, CommunityDay4, CommunityDay5],
-    event: "AWS First Cloud AI Journey Community Day",
-    organization: "AWS First Cloud AI Journey",
-    date: "21 May 2026",
-    link: "https://www.facebook.com/share/v/1KBqeqq7Ej/",
+    images: [FairnessInLLMsIdaho1],
+    event: "Oral Presentation at CIKM 2024 about Fairness in Large Language Models.",
+    organization: "Boise, Idaho, USA",
+    date: "Oct 2024",
+    link: "",
   },
 ];
 
