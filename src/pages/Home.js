@@ -88,7 +88,7 @@ function Home() {
           <div className="education-details">
             <h3>B.S. in Finance</h3>
             <p>Banking Academy | Hanoi | Vietnam </p>
-            <p className="education-note">CPA: 3.66/4.0</p>
+            <p className="education-note">CPA: 3.73/4.0</p>
             <p className="education-note">Thesis: The impact of financial distress on earnings management of firms in Vietnam. (Grade: 9.3/10)</p>
           </div>
         </div>
@@ -104,6 +104,10 @@ function Home() {
           <li>
             <span className="news-date">28 May 2026</span>
             <span className="news-content">My paper titled <strong>"An Experimental Study on Fairness-aware Machine Learning for Credit Scoring Problems"</strong> in collaboration with <i>Mrs. Huyen Giang Thi Thu</i> and <i>Mr. Tai Le Quy</i> has been accepted for Digital Finance (Q2)!</span>
+          </li>
+          <li>
+            <span className="news-date">17 Jun 2026</span>
+            <span className="news-content">My paper titled <strong>"The impact of financial distress on earnings management: Evidence from Vietnam"</strong> in collaboration with <i>Mrs. Trang Do Thi Van</i> and <i>Mrs. Huyen Giang Thi Thu</i> has been accepted forInvestment Management and Financial Innovations (Q3)! This is a great motivation for me to continue publishing more high-quality articles in the field of Finance in the future.</span>
           </li>
         </ul>
       </section>
