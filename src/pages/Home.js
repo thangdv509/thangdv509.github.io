@@ -98,16 +98,16 @@ function Home() {
         <h2 className="section-heading">News & Updates</h2>
         <ul className="news-list">
           <li>
-            <span className="news-date">Jan 2026</span>
-            <span className="news-content">Welcome to my webpage! I'm exicited to share my research and work with you 🤩🤩🤩</span>
+            <span className="news-date">17 Jun 2026</span>
+            <span className="news-content">My paper titled <strong>"The impact of financial distress on earnings management: Evidence from Vietnam"</strong> in collaboration with <i>Mrs. Trang Do Thi Van</i> and <i>Mrs. Huyen Giang Thi Thu</i> has been accepted forInvestment Management and Financial Innovations (Q3)! This is a great motivation for me to continue publishing more high-quality articles in the field of Finance in the future.</span>
           </li>
           <li>
             <span className="news-date">28 May 2026</span>
             <span className="news-content">My paper titled <strong>"An Experimental Study on Fairness-aware Machine Learning for Credit Scoring Problems"</strong> in collaboration with <i>Mrs. Huyen Giang Thi Thu</i> and <i>Mr. Tai Le Quy</i> has been accepted for Digital Finance (Q2)!</span>
           </li>
           <li>
-            <span className="news-date">17 Jun 2026</span>
-            <span className="news-content">My paper titled <strong>"The impact of financial distress on earnings management: Evidence from Vietnam"</strong> in collaboration with <i>Mrs. Trang Do Thi Van</i> and <i>Mrs. Huyen Giang Thi Thu</i> has been accepted forInvestment Management and Financial Innovations (Q3)! This is a great motivation for me to continue publishing more high-quality articles in the field of Finance in the future.</span>
+            <span className="news-date">Jan 2026</span>
+            <span className="news-content">Welcome to my webpage! I'm exicited to share my research and work with you 🤩🤩🤩</span>
           </li>
         </ul>
       </section>
