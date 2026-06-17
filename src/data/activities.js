@@ -9,7 +9,7 @@ import CommunityDay3 from '../assets/activities/AWSCommunityDay/CommunityDay3.jp
 import CommunityDay4 from '../assets/activities/AWSCommunityDay/CommunityDay4.jpg';
 import CommunityDay5 from '../assets/activities/AWSCommunityDay/CommunityDay5.jpg';
 
-import FairnessInLLMsIdaho1 from '../assets/activities/FairnessInLLMsIdaho/FairnessInLLMsIdaho.jpeg';
+import FairnessInLLMsIdaho1 from '../assets/activities/FairnessInLLMsIdaho/FairnessInLLmIdaho.jpeg';
 
 const activities = [
   {
