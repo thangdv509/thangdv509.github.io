@@ -156,12 +156,36 @@
   z-index: 1200;
   min-width: 460px;
   max-width: 600px;
+  max-height: 82vh;
+  overflow-y: auto;
   border-radius: 12px;
   border: 1px solid;
   backdrop-filter: blur(20px) saturate(180%);
   -webkit-backdrop-filter: blur(20px) saturate(180%);
   padding: 0.9rem 1rem;
   pointer-events: all;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(100, 150, 255, 0.3) transparent;
+}
+
+.map-popup::-webkit-scrollbar {
+  width: 4px;
+}
+
+.map-popup::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.map-popup::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+}
+
+[data-theme="dark"] .map-popup::-webkit-scrollbar-thumb {
+  background: rgba(100, 150, 255, 0.35);
+}
+
+[data-theme="light"] .map-popup::-webkit-scrollbar-thumb {
+  background: rgba(167, 139, 250, 0.35);
 }
 
 [data-theme="dark"] .map-popup {
