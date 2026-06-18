@@ -8,6 +8,13 @@ import BankingGrad1 from "../assets/travel/Vietnam/Hanoi/BankingAcademyGraduatio
 import BankingGrad2 from "../assets/travel/Vietnam/Hanoi/BankingAcademyGraduation/BankingAcademyGraduation2.JPEG";
 import BankingGrad3 from "../assets/travel/Vietnam/Hanoi/BankingAcademyGraduation/BankingAcademyGraduation3.JPEG";
 
+import PhuongLinh1 from "../assets/travel/Vietnam/Hanoi/PhuongLinhShow/PhuongLinh1.JPEG";
+import PhuongLinh2 from "../assets/travel/Vietnam/Hanoi/PhuongLinhShow/PhuongLinh2.JPEG";
+import PhuongLinh3 from "../assets/travel/Vietnam/Hanoi/PhuongLinhShow/PhuongLinh3.JPEG";
+import PhuongLinh4 from "../assets/travel/Vietnam/Hanoi/PhuongLinhShow/PhuongLinh4.JPEG";
+import PhuongLinh5 from "../assets/travel/Vietnam/Hanoi/PhuongLinhShow/PhuongLinh5.JPEG";
+import PhuongLinh6 from "../assets/travel/Vietnam/Hanoi/PhuongLinhShow/PhuongLinh6.JPEG";
+
 import MocChau1 from '../assets/travel/Vietnam/MocChau/MocChau1.jpg';
 import MocChau2 from '../assets/travel/Vietnam/MocChau/MocChau2.jpg';
 import MocChau3 from '../assets/travel/Vietnam/MocChau/MocChau3.jpg';
@@ -52,6 +59,30 @@ import VinhHy26 from "../assets/travel/Vietnam/NinhThuan/VinhHy/VinhHy26.JPEG";
 import VinhHy28 from "../assets/travel/Vietnam/NinhThuan/VinhHy/VinhHy28.JPEG";
 import VinhHy29 from "../assets/travel/Vietnam/NinhThuan/VinhHy/VinhHy29.JPEG";
 
+import Nevada1  from "../assets/travel/USA/Lasvegas/Nevada/Nevada1.JPEG";
+import Nevada2  from "../assets/travel/USA/Lasvegas/Nevada/Nevada2.JPEG";
+import Nevada3  from "../assets/travel/USA/Lasvegas/Nevada/Nevada3.JPEG";
+import Nevada4  from "../assets/travel/USA/Lasvegas/Nevada/Nevada4.JPEG";
+import Nevada5  from "../assets/travel/USA/Lasvegas/Nevada/Nevada5.JPEG";
+import Nevada6  from "../assets/travel/USA/Lasvegas/Nevada/Nevada6.JPEG";
+import Nevada7  from "../assets/travel/USA/Lasvegas/Nevada/Nevada7.JPEG";
+import Nevada8  from "../assets/travel/USA/Lasvegas/Nevada/Nevada8.JPEG";
+import Nevada9  from "../assets/travel/USA/Lasvegas/Nevada/Nevada9.JPEG";
+import Nevada10 from "../assets/travel/USA/Lasvegas/Nevada/Nevada10.JPEG";
+import Nevada11 from "../assets/travel/USA/Lasvegas/Nevada/Nevada11.JPEG";
+import Nevada12 from "../assets/travel/USA/Lasvegas/Nevada/Nevada12.JPEG";
+import Nevada13 from "../assets/travel/USA/Lasvegas/Nevada/Nevada13.JPEG";
+import Nevada14 from "../assets/travel/USA/Lasvegas/Nevada/Nevada14.JPEG";
+import Nevada15 from "../assets/travel/USA/Lasvegas/Nevada/Nevada15.JPEG";
+import Nevada16 from "../assets/travel/USA/Lasvegas/Nevada/Nevada16.JPEG";
+import Nevada17 from "../assets/travel/USA/Lasvegas/Nevada/Nevada17.JPEG";
+
+import Orlando1 from "../assets/travel/USA/Miami/Orlando/Orlando1.JPEG";
+import Orlando2 from "../assets/travel/USA/Miami/Orlando/Orlando2.JPEG";
+import Orlando3 from "../assets/travel/USA/Miami/Orlando/Orlando3.JPEG";
+import Orlando4 from "../assets/travel/USA/Miami/Orlando/Orlando4.JPEG";
+import Orlando5 from "../assets/travel/USA/Miami/Orlando/Orlando5.JPEG";
+
 const travelData = [
   {
     id: 1,
@@ -74,6 +105,12 @@ const travelData = [
         name: "Banking Academy Graduation",
         date: "25 Oct 2025",
         images: [BankingGrad1, BankingGrad2, BankingGrad3],
+      },
+      {
+        id: 3,
+        name: "Phuong Linh Show",
+        date: "7 Dec 2024",
+        images: [PhuongLinh1, PhuongLinh2, PhuongLinh3, PhuongLinh4, PhuongLinh5, PhuongLinh6],
       },
     ],
   },
@@ -135,6 +172,47 @@ const travelData = [
           VinhHy21, VinhHy22, VinhHy23, VinhHy24, VinhHy25,
           VinhHy26, VinhHy28, VinhHy29,
         ],
+      },
+    ],
+  },
+  {
+    id: 5,
+    city: "Las Vegas",
+    country: "USA",
+    flag: "🇺🇸",
+    lat: 36.1699,
+    lng: -115.1398,
+    images: [],
+    date: "",
+    events: [
+      {
+        id: 1,
+        name: "Las Vegas & Nevada",
+        date: "24 Oct 2024",
+        images: [
+          Nevada1,  Nevada2,  Nevada3,  Nevada4,  Nevada5,
+          Nevada6,  Nevada7,  Nevada8,  Nevada9,  Nevada10,
+          Nevada11, Nevada12, Nevada13, Nevada14, Nevada15,
+          Nevada16, Nevada17,
+        ],
+      },
+    ],
+  },
+  {
+    id: 6,
+    city: "Miami",
+    country: "USA",
+    flag: "🇺🇸",
+    lat: 25.7617,
+    lng: -80.1918,
+    images: [],
+    date: "",
+    events: [
+      {
+        id: 1,
+        name: "Orlando",
+        date: "30 Jan 2025",
+        images: [Orlando1, Orlando2, Orlando3, Orlando4, Orlando5],
       },
     ],
   },
