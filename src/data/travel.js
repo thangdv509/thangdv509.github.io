@@ -77,11 +77,48 @@ import Nevada15 from "../assets/travel/USA/Lasvegas/Nevada/Nevada15.JPEG";
 import Nevada16 from "../assets/travel/USA/Lasvegas/Nevada/Nevada16.JPEG";
 import Nevada17 from "../assets/travel/USA/Lasvegas/Nevada/Nevada17.JPEG";
 
+import SVStartupVII1 from "../assets/travel/Vietnam/HCMCity/SVStartupVII/SVStartupVII1.JPEG";
+import SVStartupVII2 from "../assets/travel/Vietnam/HCMCity/SVStartupVII/SVStartupVII2.JPEG";
+
 import Orlando1 from "../assets/travel/USA/Miami/Orlando/Orlando1.JPEG";
 import Orlando2 from "../assets/travel/USA/Miami/Orlando/Orlando2.JPEG";
 import Orlando3 from "../assets/travel/USA/Miami/Orlando/Orlando3.JPEG";
 import Orlando4 from "../assets/travel/USA/Miami/Orlando/Orlando4.JPEG";
 import Orlando5 from "../assets/travel/USA/Miami/Orlando/Orlando5.JPEG";
+
+import CIKM20241  from "../assets/travel/USA/Idaho/Boise/CIKM2024/CIKM20241.JPEG";
+import CIKM20242  from "../assets/travel/USA/Idaho/Boise/CIKM2024/CIKM20242.JPEG";
+import CIKM20243  from "../assets/travel/USA/Idaho/Boise/CIKM2024/CIKM20243.JPEG";
+import CIKM20244  from "../assets/travel/USA/Idaho/Boise/CIKM2024/CIKM20244.JPEG";
+import CIKM20245  from "../assets/travel/USA/Idaho/Boise/CIKM2024/CIKM20245.JPEG";
+import CIKM20246  from "../assets/travel/USA/Idaho/Boise/CIKM2024/CIKM20246.JPEG";
+import CIKM20247  from "../assets/travel/USA/Idaho/Boise/CIKM2024/CIKM20247.JPEG";
+import CIKM20248  from "../assets/travel/USA/Idaho/Boise/CIKM2024/CIKM20248.PNG";
+import CIKM20249  from "../assets/travel/USA/Idaho/Boise/CIKM2024/CIKM20249.PNG";
+import CIKM202410 from "../assets/travel/USA/Idaho/Boise/CIKM2024/CIKM202410.PNG";
+import CIKM202411 from "../assets/travel/USA/Idaho/Boise/CIKM2024/CIKM202411.PNG";
+
+import BoiseZoo1  from "../assets/travel/USA/Idaho/Boise/BoiseZoo/BoiseZoo1.JPEG";
+import BoiseZoo2  from "../assets/travel/USA/Idaho/Boise/BoiseZoo/BoiseZoo2.JPEG";
+import BoiseZoo3  from "../assets/travel/USA/Idaho/Boise/BoiseZoo/BoiseZoo3.JPEG";
+import BoiseZoo4  from "../assets/travel/USA/Idaho/Boise/BoiseZoo/BoiseZoo4.JPEG";
+import BoiseZoo5  from "../assets/travel/USA/Idaho/Boise/BoiseZoo/BoiseZoo5.JPEG";
+import BoiseZoo6  from "../assets/travel/USA/Idaho/Boise/BoiseZoo/BoiseZoo6.JPEG";
+import BoiseZoo7  from "../assets/travel/USA/Idaho/Boise/BoiseZoo/BoiseZoo7.JPEG";
+import BoiseZoo8  from "../assets/travel/USA/Idaho/Boise/BoiseZoo/BoiseZoo8.JPEG";
+import BoiseZoo9  from "../assets/travel/USA/Idaho/Boise/BoiseZoo/BoiseZoo9.JPEG";
+import BoiseZoo10 from "../assets/travel/USA/Idaho/Boise/BoiseZoo/BoiseZoo10.JPEG";
+import BoiseZoo11 from "../assets/travel/USA/Idaho/Boise/BoiseZoo/BoiseZoo11.JPEG";
+import BoiseZoo12 from "../assets/travel/USA/Idaho/Boise/BoiseZoo/BoiseZoo12.JPEG";
+import BoiseZoo13 from "../assets/travel/USA/Idaho/Boise/BoiseZoo/BoiseZoo13.JPEG";
+
+import BoiseArtMuseum1 from "../assets/travel/USA/Idaho/Boise/BoiseArtMuseum/BoiseArtMuseum1.JPEG";
+import BoiseArtMuseum2 from "../assets/travel/USA/Idaho/Boise/BoiseArtMuseum/BoiseArtMuseum2.JPEG";
+import BoiseArtMuseum3 from "../assets/travel/USA/Idaho/Boise/BoiseArtMuseum/BoiseArtMuseum3.JPEG";
+import BoiseArtMuseum4 from "../assets/travel/USA/Idaho/Boise/BoiseArtMuseum/BoiseArtMuseum4.JPEG";
+import BoiseArtMuseum5 from "../assets/travel/USA/Idaho/Boise/BoiseArtMuseum/BoiseArtMuseum5.JPEG";
+import BoiseArtMuseum6 from "../assets/travel/USA/Idaho/Boise/BoiseArtMuseum/BoiseArtMuseum6.JPEG";
+import BoiseArtMuseum7 from "../assets/travel/USA/Idaho/Boise/BoiseArtMuseum/BoiseArtMuseum7.JPEG";
 
 const travelData = [
   {
@@ -116,6 +153,24 @@ const travelData = [
   },
   {
     id: 2,
+    city: "Ho Chi Minh City",
+    country: "Vietnam",
+    flag: "🇻🇳",
+    lat: 10.8231,
+    lng: 106.6297,
+    images: [],
+    date: "",
+    events: [
+      {
+        id: 1,
+        name: "SV Startup VII",
+        date: "20 Apr 2025",
+        images: [SVStartupVII1, SVStartupVII2],
+      },
+    ],
+  },
+  {
+    id: 3,
     city: "Moc Chau",
     country: "Vietnam",
     flag: "🇻🇳",
@@ -133,7 +188,7 @@ const travelData = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     city: "Ninh Binh",
     country: "Vietnam",
     flag: "🇻🇳",
@@ -151,7 +206,7 @@ const travelData = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     city: "Ninh Thuan",
     country: "Vietnam",
     flag: "🇻🇳",
@@ -176,7 +231,7 @@ const travelData = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     city: "Las Vegas",
     country: "USA",
     flag: "🇺🇸",
@@ -199,7 +254,47 @@ const travelData = [
     ],
   },
   {
-    id: 6,
+    id: 7,
+    city: "Boise",
+    country: "USA",
+    flag: "🇺🇸",
+    lat: 43.6150,
+    lng: -116.2023,
+    images: [],
+    date: "Oct 2024",
+    events: [
+      {
+        id: 1,
+        name: "CIKM 2024",
+        date: "21 Oct 2024",
+        images: [
+          CIKM20241, CIKM20242, CIKM20243, CIKM20244, CIKM20245,
+          CIKM20246, CIKM20247, CIKM20248, CIKM20249, CIKM202410, CIKM202411,
+        ],
+      },
+      {
+        id: 2,
+        name: "Zoo Boise",
+        date: "22 Oct 2024",
+        images: [
+          BoiseZoo1,  BoiseZoo2,  BoiseZoo3,  BoiseZoo4,  BoiseZoo5,
+          BoiseZoo6,  BoiseZoo7,  BoiseZoo8,  BoiseZoo9,  BoiseZoo10,
+          BoiseZoo11, BoiseZoo12, BoiseZoo13,
+        ],
+      },
+      {
+        id: 3,
+        name: "Boise Art Museum",
+        date: "22 Oct 2024",
+        images: [
+          BoiseArtMuseum1, BoiseArtMuseum2, BoiseArtMuseum3, BoiseArtMuseum4,
+          BoiseArtMuseum5, BoiseArtMuseum6, BoiseArtMuseum7,
+        ],
+      },
+    ],
+  },
+  {
+    id: 8,
     city: "Miami",
     country: "USA",
     flag: "🇺🇸",
