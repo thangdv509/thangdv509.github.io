@@ -23,7 +23,7 @@ const travelData = [
     events: [
       {
         id: 1,
-        name: "YConcert 2025 with Bui Lan Huong, Soobin Hoang Son, and other artists",
+        name: "YConcert 2025 with my beloved friend, Bui Lan Huong, Soobin Hoang Son, and other artists",
         date: "22 Dec 2025",
         images: [YConcert20251, YConcert20252, YConcert20253, YConcert20254, YConcert20255],
       },
@@ -40,7 +40,7 @@ const travelData = [
     events: [
       {
         id: 1,
-        name: "A memorable trip to pine forest, pet farm, little forest, a garden, pink grass hill with a beloved friend",
+        name: "A memorable trip to pine forest, pet farm, little forest, a garden, pink grass hill with my beloved friend",
         date: "Nov 2025",
         images: [MocChau1, MocChau2, MocChau3, MocChau4, MocChau5],
       },
