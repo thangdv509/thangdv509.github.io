@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Publications from './pages/Publications';
 import Achievements from './pages/Achievements';
 import Activities from './pages/Activities';
+import Travel from './pages/Travel';
 import Journey from './pages/Journey';
 import MyShow from './pages/MyShow';
 import Blog from './pages/Blog';
@@ -19,6 +20,7 @@ function App() {
           <Route path="publications" element={<Publications />} />
           <Route path="achievements" element={<Achievements />} />
           <Route path="activities" element={<Activities />} />
+          <Route path="travel" element={<Travel />} />
           {/* <Route path="journey" element={<Journey />} />
           <Route path="myshow" element={<MyShow />} />
           <Route path="blog" element={<Blog />} /> */}

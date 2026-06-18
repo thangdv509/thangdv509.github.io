@@ -29,6 +29,9 @@ function Navigation() {
             <li>
               <Link to="/activities" className={isActive('/activities')}>Activities</Link>
             </li>
+            <li>
+              <Link to="/travel" className={isActive('/travel')}>Travel</Link>
+            </li>
             {/* <li>
               <Link to="/journey" className={isActive('/journey')}>My Main Journey</Link>
             </li>
