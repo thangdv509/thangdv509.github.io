@@ -77,6 +77,78 @@ import Nevada15 from "../assets/travel/USA/Lasvegas/Nevada/Nevada15.JPEG";
 import Nevada16 from "../assets/travel/USA/Lasvegas/Nevada/Nevada16.JPEG";
 import Nevada17 from "../assets/travel/USA/Lasvegas/Nevada/Nevada17.JPEG";
 
+import ShangHai1  from "../assets/travel/China/ShangHai/ShangHai/ShangHai1.jpg";
+import ShangHai2  from "../assets/travel/China/ShangHai/ShangHai/ShangHai2.jpg";
+import ShangHai3  from "../assets/travel/China/ShangHai/ShangHai/ShangHai3.jpg";
+import ShangHai4  from "../assets/travel/China/ShangHai/ShangHai/ShangHai4.jpg";
+import ShangHai5  from "../assets/travel/China/ShangHai/ShangHai/ShangHai5.jpg";
+import ShangHai6  from "../assets/travel/China/ShangHai/ShangHai/ShangHai6.jpg";
+import ShangHai7  from "../assets/travel/China/ShangHai/ShangHai/ShangHai7.jpg";
+import ShangHai8  from "../assets/travel/China/ShangHai/ShangHai/ShangHai8.jpg";
+import ShangHai9  from "../assets/travel/China/ShangHai/ShangHai/ShangHai9.jpg";
+import ShangHai10 from "../assets/travel/China/ShangHai/ShangHai/ShangHai10.jpg";
+import ShangHai11 from "../assets/travel/China/ShangHai/ShangHai/ShangHai11.jpg";
+import ShangHai12 from "../assets/travel/China/ShangHai/ShangHai/ShangHai12.jpg";
+import ShangHai13 from "../assets/travel/China/ShangHai/ShangHai/ShangHai13.jpg";
+import ShangHai14 from "../assets/travel/China/ShangHai/ShangHai/ShangHai14.jpg";
+import ShangHai15 from "../assets/travel/China/ShangHai/ShangHai/ShangHai15.jpg";
+import ShangHai16 from "../assets/travel/China/ShangHai/ShangHai/ShangHai16.jpg";
+import ShangHai17 from "../assets/travel/China/ShangHai/ShangHai/ShangHai17.jpg";
+import ShangHai18 from "../assets/travel/China/ShangHai/ShangHai/ShangHai18.jpg";
+import ShangHai19 from "../assets/travel/China/ShangHai/ShangHai/ShangHai19.jpg";
+import ShangHai20 from "../assets/travel/China/ShangHai/ShangHai/ShangHai20.jpg";
+import ShangHai21 from "../assets/travel/China/ShangHai/ShangHai/ShangHai21.jpg";
+import ShangHai22 from "../assets/travel/China/ShangHai/ShangHai/ShangHai22.jpg";
+
+import Disneyland1 from "../assets/travel/China/ShangHai/Disneyland/Disneyland1.jpg";
+import Disneyland2 from "../assets/travel/China/ShangHai/Disneyland/Disneyland2.jpg";
+import Disneyland3 from "../assets/travel/China/ShangHai/Disneyland/Disneyland3.jpg";
+import Disneyland4 from "../assets/travel/China/ShangHai/Disneyland/Disneyland4.jpg";
+import Disneyland5 from "../assets/travel/China/ShangHai/Disneyland/Disneyland5.jpg";
+import Disneyland6 from "../assets/travel/China/ShangHai/Disneyland/Disneyland6.jpg";
+import Disneyland7 from "../assets/travel/China/ShangHai/Disneyland/Disneyland7.jpg";
+import Disneyland8 from "../assets/travel/China/ShangHai/Disneyland/Disneyland8.jpg";
+
+import ICPCVOI20231 from "../assets/travel/Vietnam/Hue/ICPC&VOI2023/ICPCVOI20231.jpg";
+import ICPCVOI20232 from "../assets/travel/Vietnam/Hue/ICPC&VOI2023/ICPCVOI20232.jpg";
+
+import CanTho1 from "../assets/travel/Vietnam/CanTho/SVStartupVI/CanTho1.jpg";
+import CanTho2 from "../assets/travel/Vietnam/CanTho/SVStartupVI/CanTho2.jpg";
+import CanTho3 from "../assets/travel/Vietnam/CanTho/SVStartupVI/CanTho3.jpg";
+
+import SecomusTrip1  from "../assets/travel/Vietnam/DaNang/SecomusTrip/SecomusTrip1.jpg";
+import SecomusTrip2  from "../assets/travel/Vietnam/DaNang/SecomusTrip/SecomusTrip2.jpg";
+import SecomusTrip3  from "../assets/travel/Vietnam/DaNang/SecomusTrip/SecomusTrip3.jpg";
+import SecomusTrip4  from "../assets/travel/Vietnam/DaNang/SecomusTrip/SecomusTrip4.jpg";
+import SecomusTrip5  from "../assets/travel/Vietnam/DaNang/SecomusTrip/SecomusTrip5.jpg";
+import SecomusTrip6  from "../assets/travel/Vietnam/DaNang/SecomusTrip/SecomusTrip6.jpg";
+import SecomusTrip7  from "../assets/travel/Vietnam/DaNang/SecomusTrip/SecomusTrip7.jpg";
+import SecomusTrip8  from "../assets/travel/Vietnam/DaNang/SecomusTrip/SecomusTrip8.jpg";
+import SecomusTrip9  from "../assets/travel/Vietnam/DaNang/SecomusTrip/SecomusTrip9.jpg";
+import SecomusTrip10 from "../assets/travel/Vietnam/DaNang/SecomusTrip/SecomusTrip10.jpg";
+import SecomusTrip11 from "../assets/travel/Vietnam/DaNang/SecomusTrip/SecomusTrip11.jpg";
+import SecomusTrip12 from "../assets/travel/Vietnam/DaNang/SecomusTrip/SecomusTrip12.jpg";
+import SecomusTrip13 from "../assets/travel/Vietnam/DaNang/SecomusTrip/SecomusTrip13.jpg";
+import SecomusTrip14 from "../assets/travel/Vietnam/DaNang/SecomusTrip/SecomusTrip14.jpg";
+import SecomusTrip15 from "../assets/travel/Vietnam/DaNang/SecomusTrip/SecomusTrip15.jpg";
+import SecomusTrip16 from "../assets/travel/Vietnam/DaNang/SecomusTrip/SecomusTrip16.jpg";
+import SecomusTrip17 from "../assets/travel/Vietnam/DaNang/SecomusTrip/SecomusTrip17.jpg";
+import SecomusTrip18 from "../assets/travel/Vietnam/DaNang/SecomusTrip/SecomusTrip18.jpg";
+import SecomusTrip19 from "../assets/travel/Vietnam/DaNang/SecomusTrip/SecomusTrip19.jpg";
+import SecomusTrip20 from "../assets/travel/Vietnam/DaNang/SecomusTrip/SecomusTrip20.jpg";
+import SecomusTrip21 from "../assets/travel/Vietnam/DaNang/SecomusTrip/SecomusTrip21.jpg";
+import SecomusTrip22 from "../assets/travel/Vietnam/DaNang/SecomusTrip/SecomusTrip22.jpg";
+import SecomusTrip23 from "../assets/travel/Vietnam/DaNang/SecomusTrip/SecomusTrip23.jpg";
+import SecomusTrip24 from "../assets/travel/Vietnam/DaNang/SecomusTrip/SecomusTrip24.jpg";
+import SecomusTrip25 from "../assets/travel/Vietnam/DaNang/SecomusTrip/SecomusTrip25.jpg";
+import SecomusTrip26 from "../assets/travel/Vietnam/DaNang/SecomusTrip/SecomusTrip26.jpg";
+import SecomusTrip27 from "../assets/travel/Vietnam/DaNang/SecomusTrip/SecomusTrip27.jpg";
+import SecomusTrip28 from "../assets/travel/Vietnam/DaNang/SecomusTrip/SecomusTrip28.jpg";
+import SecomusTrip29 from "../assets/travel/Vietnam/DaNang/SecomusTrip/SecomusTrip29.jpg";
+import SecomusTrip30 from "../assets/travel/Vietnam/DaNang/SecomusTrip/SecomusTrip30.jpg";
+import SecomusTrip31 from "../assets/travel/Vietnam/DaNang/SecomusTrip/SecomusTrip31.jpg";
+import SecomusTrip32 from "../assets/travel/Vietnam/DaNang/SecomusTrip/SecomusTrip32.jpg";
+
 import SVStartupVII1 from "../assets/travel/Vietnam/HCMCity/SVStartupVII/SVStartupVII1.JPEG";
 import SVStartupVII2 from "../assets/travel/Vietnam/HCMCity/SVStartupVII/SVStartupVII2.JPEG";
 
@@ -123,6 +195,39 @@ import BoiseArtMuseum7 from "../assets/travel/USA/Idaho/Boise/BoiseArtMuseum/Boi
 const travelData = [
   {
     id: 1,
+    city: "Shanghai",
+    country: "China",
+    flag: "🇨🇳",
+    lat: 31.2304,
+    lng: 121.4737,
+    images: [],
+    date: "",
+    events: [
+      {
+        id: 1,
+        name: "Shanghai",
+        date: "",
+        images: [
+          ShangHai1,  ShangHai2,  ShangHai3,  ShangHai4,  ShangHai5,
+          ShangHai6,  ShangHai7,  ShangHai8,  ShangHai9,  ShangHai10,
+          ShangHai11, ShangHai12, ShangHai13, ShangHai14, ShangHai15,
+          ShangHai16, ShangHai17, ShangHai18, ShangHai19, ShangHai20,
+          ShangHai21, ShangHai22,
+        ],
+      },
+      {
+        id: 2,
+        name: "Shanghai Disneyland",
+        date: "",
+        images: [
+          Disneyland1, Disneyland2, Disneyland3, Disneyland4,
+          Disneyland5, Disneyland6, Disneyland7, Disneyland8,
+        ],
+      },
+    ],
+  },
+  {
+    id: 2,
     city: "Hanoi",
     country: "Vietnam",
     flag: "🇻🇳",
@@ -152,7 +257,7 @@ const travelData = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     city: "Ho Chi Minh City",
     country: "Vietnam",
     flag: "🇻🇳",
@@ -170,7 +275,18 @@ const travelData = [
     ],
   },
   {
-    id: 3,
+    id: 4,
+    city: "Lao Cai",
+    country: "Vietnam",
+    flag: "🇻🇳",
+    lat: 22.4856,
+    lng: 103.9758,
+    images: [],
+    date: "",
+    events: [],
+  },
+  {
+    id: 5,
     city: "Moc Chau",
     country: "Vietnam",
     flag: "🇻🇳",
@@ -188,7 +304,7 @@ const travelData = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     city: "Ninh Binh",
     country: "Vietnam",
     flag: "🇻🇳",
@@ -206,7 +322,7 @@ const travelData = [
     ],
   },
   {
-    id: 5,
+    id: 7,
     city: "Ninh Thuan",
     country: "Vietnam",
     flag: "🇻🇳",
@@ -231,7 +347,70 @@ const travelData = [
     ],
   },
   {
-    id: 6,
+    id: 8,
+    city: "Hue",
+    country: "Vietnam",
+    flag: "🇻🇳",
+    lat: 16.4637,
+    lng: 107.5909,
+    images: [],
+    date: "Dec 2023",
+    events: [
+      {
+        id: 1,
+        name: "ICPC & VOI 2023",
+        date: "Dec 2023",
+        images: [ICPCVOI20231, ICPCVOI20232],
+      },
+    ],
+  },
+  {
+    id: 9,
+    city: "Can Tho",
+    country: "Vietnam",
+    flag: "🇻🇳",
+    lat: 10.0452,
+    lng: 105.7469,
+    images: [],
+    date: "May 2024",
+    events: [
+      {
+        id: 1,
+        name: "SV Startup VI",
+        date: "May 2024",
+        images: [CanTho1, CanTho2, CanTho3],
+      },
+    ],
+  },
+  {
+    id: 10,
+    city: "Da Nang",
+    country: "Vietnam",
+    flag: "🇻🇳",
+    lat: 16.0544,
+    lng: 108.2022,
+    images: [],
+    date: "",
+    events: [
+      {
+        id: 1,
+        name: "Secomus Company Trip",
+        date: "",
+        images: [
+          SecomusTrip1,  SecomusTrip2,  SecomusTrip3,  SecomusTrip4,
+          SecomusTrip5,  SecomusTrip6,  SecomusTrip7,  SecomusTrip8,
+          SecomusTrip9,  SecomusTrip10, SecomusTrip11, SecomusTrip12,
+          SecomusTrip13, SecomusTrip14, SecomusTrip15, SecomusTrip16,
+          SecomusTrip17, SecomusTrip18, SecomusTrip19, SecomusTrip20,
+          SecomusTrip21, SecomusTrip22, SecomusTrip23, SecomusTrip24,
+          SecomusTrip25, SecomusTrip26, SecomusTrip27, SecomusTrip28,
+          SecomusTrip29, SecomusTrip30, SecomusTrip31, SecomusTrip32,
+        ],
+      },
+    ],
+  },
+  {
+    id: 11,
     city: "Las Vegas",
     country: "USA",
     flag: "🇺🇸",
@@ -254,7 +433,7 @@ const travelData = [
     ],
   },
   {
-    id: 7,
+    id: 12,
     city: "Boise",
     country: "USA",
     flag: "🇺🇸",
@@ -294,7 +473,7 @@ const travelData = [
     ],
   },
   {
-    id: 8,
+    id: 13,
     city: "Miami",
     country: "USA",
     flag: "🇺🇸",
