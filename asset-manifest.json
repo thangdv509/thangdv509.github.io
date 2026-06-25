@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7e6fbcc1.css",
-    "main.js": "/static/js/main.7632dbe6.js",
+    "main.js": "/static/js/main.0a335805.js",
     "static/js/787.c0676f0d.chunk.js": "/static/js/787.c0676f0d.chunk.js",
     "static/media/VinhHy12.JPEG": "/static/media/VinhHy12.b25e2ff032e46eb59984.JPEG",
     "static/media/Homepage_avatar.png": "/static/media/Homepage_avatar.dbaa31cf395bdd753645.png",
@@ -171,6 +171,7 @@
     "static/media/Nevada9.JPEG": "/static/media/Nevada9.a79698a399707be5939d.JPEG",
     "static/media/ICPCVOI20232.jpg": "/static/media/ICPCVOI20232.774e9be53b5ed35a752a.jpg",
     "static/media/CIKM20247.JPEG": "/static/media/CIKM20247.d1101f4dbf5b36823931.JPEG",
+    "static/media/HaiPhong3.jpg": "/static/media/HaiPhong3.29786a96b422e2725930.jpg",
     "static/media/VinhHy14.JPEG": "/static/media/VinhHy14.b0be2cccfecf685d7bd6.JPEG",
     "static/media/BoiseZoo11.JPEG": "/static/media/BoiseZoo11.1e1fe0e4415f02424036.JPEG",
     "static/media/VinhHy21.JPEG": "/static/media/VinhHy21.12ab8ecc507c12d450a4.JPEG",
@@ -178,13 +179,21 @@
     "static/media/CommunityDay2.jpg": "/static/media/CommunityDay2.6f38b322707a2f3aa449.jpg",
     "static/media/Orlando2.JPEG": "/static/media/Orlando2.be83e1ae07bbc78c765d.JPEG",
     "static/media/VinhHy24.JPEG": "/static/media/VinhHy24.b2227c514397ab4fe549.JPEG",
+    "static/media/HaiPhong7.jpg": "/static/media/HaiPhong7.1d68c43959d624f51e3b.jpg",
+    "static/media/HaiPhong6.jpg": "/static/media/HaiPhong6.d2229940d3a88a98ef6f.jpg",
     "static/media/Orlando5.JPEG": "/static/media/Orlando5.15e7af1c41af951c7f9b.JPEG",
+    "static/media/HaiPhong8.jpg": "/static/media/HaiPhong8.5846984146f5b5816192.jpg",
     "static/media/CommunityDay3.jpg": "/static/media/CommunityDay3.46e70493ab1eef363eb9.jpg",
     "static/media/CanTho1.jpg": "/static/media/CanTho1.3e7034f4a90b0813d474.jpg",
+    "static/media/HaiPhong9.jpg": "/static/media/HaiPhong9.006c9fd6ca410b930fe9.jpg",
     "static/media/CommunityDay5.jpg": "/static/media/CommunityDay5.94ec8aba4d598159fe37.jpg",
     "static/media/CommunityDay4.jpg": "/static/media/CommunityDay4.f328ad63880484bc66c8.jpg",
+    "static/media/HaiPhong1.jpg": "/static/media/HaiPhong1.4294c8bd2f04e7322291.jpg",
     "static/media/CommunityDay1.jpg": "/static/media/CommunityDay1.f4557be576d2425de2db.jpg",
+    "static/media/HaiPhong2.jpg": "/static/media/HaiPhong2.f5975f7de2c22410e15e.jpg",
     "static/media/Orlando1.JPEG": "/static/media/Orlando1.8129082198da64ae23be.JPEG",
+    "static/media/HaiPhong4.jpg": "/static/media/HaiPhong4.39bcbfe32bde7c094ee6.jpg",
+    "static/media/HaiPhong5.jpg": "/static/media/HaiPhong5.c631fc5d4456c0d02fc3.jpg",
     "static/media/ICPCVOI20231.jpg": "/static/media/ICPCVOI20231.4cb964768b8804ab0cf0.jpg",
     "static/media/VinhHy2.JPEG": "/static/media/VinhHy2.87274995b784077aecf1.JPEG",
     "static/media/TechMaker2.jpg": "/static/media/TechMaker2.e2ee032589acda829f5e.jpg",
@@ -193,11 +202,11 @@
     "static/media/TechMaker4.jpeg": "/static/media/TechMaker4.679906e78b37ed28a211.jpeg",
     "index.html": "/index.html",
     "main.7e6fbcc1.css.map": "/static/css/main.7e6fbcc1.css.map",
-    "main.7632dbe6.js.map": "/static/js/main.7632dbe6.js.map",
+    "main.0a335805.js.map": "/static/js/main.0a335805.js.map",
     "787.c0676f0d.chunk.js.map": "/static/js/787.c0676f0d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7e6fbcc1.css",
-    "static/js/main.7632dbe6.js"
+    "static/js/main.0a335805.js"
   ]
 }
