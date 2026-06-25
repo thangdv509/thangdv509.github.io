@@ -109,6 +109,16 @@ import Disneyland6 from "../assets/travel/China/ShangHai/Disneyland/Disneyland6.
 import Disneyland7 from "../assets/travel/China/ShangHai/Disneyland/Disneyland7.jpg";
 import Disneyland8 from "../assets/travel/China/ShangHai/Disneyland/Disneyland8.jpg";
 
+import HaiPhong1 from "../assets/travel/Vietnam/HaiPhong/05022023/HaiPhong1.jpg";
+import HaiPhong2 from "../assets/travel/Vietnam/HaiPhong/05022023/HaiPhong2.jpg";
+import HaiPhong3 from "../assets/travel/Vietnam/HaiPhong/05022023/HaiPhong3.jpg";
+import HaiPhong4 from "../assets/travel/Vietnam/HaiPhong/05022023/HaiPhong4.jpg";
+import HaiPhong5 from "../assets/travel/Vietnam/HaiPhong/05022023/HaiPhong5.jpg";
+import HaiPhong6 from "../assets/travel/Vietnam/HaiPhong/05022023/HaiPhong6.jpg";
+import HaiPhong7 from "../assets/travel/Vietnam/HaiPhong/05022023/HaiPhong7.jpg";
+import HaiPhong8 from "../assets/travel/Vietnam/HaiPhong/05022023/HaiPhong8.jpg";
+import HaiPhong9 from "../assets/travel/Vietnam/HaiPhong/05022023/HaiPhong9.jpg";
+
 import ICPCVOI20231 from "../assets/travel/Vietnam/Hue/ICPC&VOI2023/ICPCVOI20231.jpg";
 import ICPCVOI20232 from "../assets/travel/Vietnam/Hue/ICPC&VOI2023/ICPCVOI20232.jpg";
 
@@ -258,6 +268,24 @@ const travelData = [
   },
   {
     id: 3,
+    city: "Hai Phong",
+    country: "Vietnam",
+    flag: "🇻🇳",
+    lat: 20.8449,
+    lng: 106.6881,
+    images: [],
+    date: "Feb 2023",
+    events: [
+      {
+        id: 1,
+        name: "05/02/2023",
+        date: "5 Feb 2023",
+        images: [HaiPhong1, HaiPhong2, HaiPhong3, HaiPhong4, HaiPhong5, HaiPhong6, HaiPhong7, HaiPhong8, HaiPhong9],
+      },
+    ],
+  },
+  {
+    id: 4,
     city: "Ho Chi Minh City",
     country: "Vietnam",
     flag: "🇻🇳",
@@ -275,7 +303,7 @@ const travelData = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     city: "Lao Cai",
     country: "Vietnam",
     flag: "🇻🇳",
@@ -286,7 +314,7 @@ const travelData = [
     events: [],
   },
   {
-    id: 5,
+    id: 6,
     city: "Moc Chau",
     country: "Vietnam",
     flag: "🇻🇳",
@@ -304,7 +332,7 @@ const travelData = [
     ],
   },
   {
-    id: 5,
+    id: 7,
     city: "Ninh Binh",
     country: "Vietnam",
     flag: "🇻🇳",
@@ -322,7 +350,7 @@ const travelData = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     city: "Ninh Thuan",
     country: "Vietnam",
     flag: "🇻🇳",
@@ -347,7 +375,7 @@ const travelData = [
     ],
   },
   {
-    id: 8,
+    id: 9,
     city: "Hue",
     country: "Vietnam",
     flag: "🇻🇳",
@@ -365,7 +393,7 @@ const travelData = [
     ],
   },
   {
-    id: 9,
+    id: 10,
     city: "Can Tho",
     country: "Vietnam",
     flag: "🇻🇳",
@@ -383,7 +411,7 @@ const travelData = [
     ],
   },
   {
-    id: 10,
+    id: 11,
     city: "Da Nang",
     country: "Vietnam",
     flag: "🇻🇳",
@@ -410,7 +438,7 @@ const travelData = [
     ],
   },
   {
-    id: 11,
+    id: 12,
     city: "Las Vegas",
     country: "USA",
     flag: "🇺🇸",
@@ -433,7 +461,7 @@ const travelData = [
     ],
   },
   {
-    id: 12,
+    id: 13,
     city: "Boise",
     country: "USA",
     flag: "🇺🇸",
@@ -473,7 +501,7 @@ const travelData = [
     ],
   },
   {
-    id: 13,
+    id: 14,
     city: "Miami",
     country: "USA",
     flag: "🇺🇸",
