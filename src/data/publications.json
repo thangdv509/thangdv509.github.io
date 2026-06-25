@@ -62,7 +62,7 @@
         },
         {
           "id": "pub-2025-3",
-          "title": "ToVo: Toxicity Taxonomy via Voting",
+          "title": "Fair Graph U-Net: A Fair Graph Learning Framework Integrating Group and Individual Awareness",
           "first-authors": ["Zichong Wang"],
           "other-authors": ["Zhibo Chu", "Thang Viet Doan", "Shaowei Wang", "Yongkai Wu", "Vasile Palade", "Wenbin Zhang"],
           "venue": "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI 2025) (Acceptance Rate: 23.4%)",
