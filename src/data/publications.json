@@ -15,6 +15,19 @@
           "category": "CS",
           "notes": [],
           "abstract": "Digitalization of credit scoring is an essential requirement for financial organizations and commercial banks, especially in the context of digital transformation. Machine learning techniques are commonly used to evaluate customers' creditworthiness. However, the predicted outcomes of machine learning models can be biased toward protected attributes, such as race or gender. Numerous fairness-aware machine learning models and fairness measures have been proposed. Nevertheless, their performance in the context of credit scoring has not been thoroughly investigated. In this paper, we present a comprehensive experimental study of fairness-aware machine learning in credit scoring. The study explores key aspects of credit scoring, including financial datasets, predictive models, and fairness measures. We also provide a detailed evaluation of fairness-aware predictive models and fairness measures on widely used financial datasets."
+        },
+        {
+          "id": "pub-2026-2",
+          "title": "The impact of financial distress on earnings management: Evidence from Vietnam",
+          "first-authors": ["Trang Do Thi Van"], 
+          "other-authors": ["Thang Doan Viet"],
+          "venue": "Investment Management and Financial Innovations (Q3)",
+          "public-date": "Jun 2026",
+          "link": "https://businessperspectives.org/journals/investment-management-and-financial-innovations/issue-518/the-impact-of-financial-distress-on-earnings-management-evidence-from-vietnam",
+          "image": "",
+          "category": "CS",
+          "notes": [],
+          "abstract": "Prompted by the recent increase in accounting manipulation cases and the deterioration in Vietnam, this study investigates the significance of earnings management and whether financial distress leads to increased earnings management in corporate activities. This study examines the impact of financial distress on earnings management among firms listed on Vietnam’s stock exchanges from 2013 to 2024, a period when significant changes in economic conditions occurred. The article has utilized the Modified Jones Model and Raman and Shahrur Model to analyze the influence of financial distress and other factors on the earnings management of listed companies. The regression results provide evidence that firms with mild distress tend to engage more in income-increasing practices, while those under severe distress show a reduced tendency to manipulate earnings. However, the relationship between financial distress and income-decreasing earnings management remains inconclusive. These findings underscore the need for enhanced transparency and differentiated oversight mechanisms in Vietnam’s financial reporting environment, especially for firms not immediately flagged as financially risky. The research contributes to the existing literature by offering new insights into managerial behavior under varying financial conditions in an emerging market context."
         }
       ]
     },

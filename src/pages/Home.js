@@ -100,7 +100,7 @@ function Home() {
         <ul className="news-list">
           <li>
             <CalendarBadge date="17 Jun 2026" />
-            <span className="news-content">My paper titled <strong>"The impact of financial distress on earnings management: Evidence from Vietnam"</strong> in collaboration with <i>Mrs. Trang Do Thi Van</i>  and <i>Mrs. Huyen Giang Thi Thu</i>  has been accepted for Investment Management and Financial Innovations (Q3)! This is a great motivation for me to continue publishing more high-quality articles in the field of Finance in the future.</span>
+            <span className="news-content">My paper titled <strong>"The impact of financial distress on earnings management: Evidence from Vietnam"</strong> in collaboration with <i>Mrs. Trang Do Thi Van</i> has been accepted for Investment Management and Financial Innovations (Q3)! This is a great motivation for me to continue publishing more high-quality articles in the field of Finance in the future.</span>
           </li>
           <li>
             <CalendarBadge date="28 May 2026" />
