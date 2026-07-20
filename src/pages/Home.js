@@ -96,7 +96,7 @@ function Home() {
       </section>
 
       <section className="home-section">
-        <h2 className="section-heading">Service</h2>
+        <h2 className="section-heading">Services</h2>
         <ul className="service-list">
           <li>Mentor Cohort 2 Vingroup AI thực chiến</li>
           <li>Mentor Cohort 3 Vingroup AI thực chiến</li>
