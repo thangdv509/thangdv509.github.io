@@ -1,47 +1,50 @@
-import React from 'react';
+import React, { Suspense, lazy } from 'react';
 import { WebIcon, MLIcon, CodeIcon, GitHubIcon, GoogleScholarIcon, EmailIcon } from '../components/Icons';
 import CalendarBadge from '../components/CalendarBadge';
 import avatarImage from '../assets/Homepage_avatar.png';
 import './Home.css';
 
+// Code-split the 3D hero (three.js/@react-three) out of the main bundle so
+// only the Home route pays for it — other pages never download it.
+const Hero3D = lazy(() => import('../components/hero3d/Hero3D'));
+
 function Home() {
   return (
     <div className="home-page">
+      <section className="hero3d-banner">
+        <Suspense fallback={<div className="hero3d-outer-fallback" aria-hidden="true" />}>
+          <Hero3D avatarSrc={avatarImage} />
+        </Suspense>
+      </section>
+
       <section className="hero-section">
-        <div className="hero-content">
-          <div className="hero-text">
-            <h1 className="hero-greeting">Hello, I'm <span className="name-highlight">Thang Doan</span></h1>
-            <p className="hero-description">
-              Currently I'm an <strong>independent researcher</strong> and an <strong>AI engineer</strong> at Secomus Technology JSC | Hanoi, Vietnam.
-              I am driven by the belief that technology’s true value lies in its ability to address real-world challenges, 
-              particularly in improving decision-making processes. My interests focus on bridging the gap between technological 
-              innovation and practical application by applying cutting-edge technologies such as machine learning and artificial 
-              intelligences, with a strong emphasis on the Finance domain.
-            </p>
-            <div className="hero-links">
-              <a href="https://github.com/thangdv509" target="_blank" rel="noopener noreferrer" className="hero-link">
-                <GitHubIcon className="hero-link-icon" />
-                <span>GitHub</span>
-              </a>
-              <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=Oi6ma9wAAAAJ&sortby=pubdate" target="_blank" rel="noopener noreferrer" className="hero-link">
-                <GoogleScholarIcon className="hero-link-icon" />
-                <span>Google Scholar</span>
-              </a>
-              <a href="mailto:thang.dv509@gmail.com" className="hero-link">
-                <EmailIcon className="hero-link-icon" />
-                <span>Email</span>
-              </a>
-            </div>
-          </div>
-          <div className="hero-visual">
-            <div className="profile-image-container">
-              <img src={avatarImage} alt="Thang Doan" className="profile-image" />
-            </div>
+        <div className="hero-text">
+          <h1 className="hero-greeting">Hello, I'm <span className="name-highlight">Thang Doan</span></h1>
+          <p className="hero-description">
+            Currently I'm an <strong>independent researcher</strong> and an <strong>AI engineer</strong> at Secomus Technology JSC | Hanoi, Vietnam.
+            I am driven by the belief that technology’s true value lies in its ability to address real-world challenges,
+            particularly in improving decision-making processes. My interests focus on bridging the gap between technological
+            innovation and practical application by applying cutting-edge technologies such as machine learning and artificial
+            intelligences, with a strong emphasis on the Finance domain.
+          </p>
+          <div className="hero-links">
+            <a href="https://github.com/thangdv509" target="_blank" rel="noopener noreferrer" className="hero-link">
+              <GitHubIcon className="hero-link-icon" />
+              <span>GitHub</span>
+            </a>
+            <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=Oi6ma9wAAAAJ&sortby=pubdate" target="_blank" rel="noopener noreferrer" className="hero-link">
+              <GoogleScholarIcon className="hero-link-icon" />
+              <span>Google Scholar</span>
+            </a>
+            <a href="mailto:thang.dv509@gmail.com" className="hero-link">
+              <EmailIcon className="hero-link-icon" />
+              <span>Email</span>
+            </a>
           </div>
         </div>
       </section>
 
-      <section className="home-section">
+      <section className="home-section" id="research-interests">
         <h2 className="section-heading">Research Interests</h2>
         <p className="section-intro">
           My research interests span Machine Learning (ML) and <strong>Large Language Models (LLMs)</strong>, with a focus on <strong>trustworthy AI</strong> and <strong>safety AI</strong>. Recently, I have been exploring synthetic data generation (especially for tabular data with LLMs).
@@ -103,7 +106,7 @@ function Home() {
         </ul>
       </section>
 
-      <section className="home-section">
+      <section className="home-section" id="news-updates">
         <h2 className="section-heading">News & Updates</h2>
         <ul className="news-list">
           <li>
