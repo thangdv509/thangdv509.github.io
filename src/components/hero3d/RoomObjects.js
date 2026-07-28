@@ -151,7 +151,8 @@ export function InteractiveObject({ id, label, position, onActivate, reducedMoti
       }}
       onClick={(e) => {
         e.stopPropagation();
-        onActivate(id);
+        const native = e.nativeEvent || e;
+        onActivate(id, { x: native.clientX, y: native.clientY });
       }}
       onPointerDown={(e) => e.stopPropagation()}
     >

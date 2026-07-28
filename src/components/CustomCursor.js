@@ -9,6 +9,7 @@ function CustomCursor() {
   useEffect(() => {
     let animationFrameId;
     let lastTime = 0;
+    let trailIdCounter = 0;
 
     const handleMouseMove = (e) => {
       const currentTime = Date.now();
@@ -27,7 +28,7 @@ function CustomCursor() {
           {
             x: e.clientX,
             y: e.clientY,
-            id: Date.now(),
+            id: trailIdCounter++,
             opacity: 1,
           },
           ...prev,

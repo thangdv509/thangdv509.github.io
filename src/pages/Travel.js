@@ -8,6 +8,13 @@ import CalendarBadge from '../components/CalendarBadge';
 import './Travel.css';
 
 const CAROUSEL_INTERVAL = 3000;
+
+// Vietnam's Hoàng Sa (Paracel) and Trường Sa (Spratly) archipelagos — always
+// labeled on the map as Vietnamese territory, independent of travelData.
+const VN_TERRITORIES = [
+  { id: 'hoangsa', name: 'Hoàng Sa', lat: 16.5, lng: 112.0 },
+  { id: 'truongsa', name: 'Trường Sa', lat: 8.645, lng: 111.92 },
+];
 const DRAG_THRESHOLD = 40;
 
 // ── Carousel ──────────────────────────────────────────────────
@@ -87,6 +94,33 @@ function EventItem({ event }) {
       )}
     </li>
   );
+}
+
+// ── Vietnam territory labels ─────────────────────────────────
+// A small marker at all zoom levels; the name only appears once the user has
+// zoomed in far enough for it to read as a deliberate label, not clutter.
+const TERRITORY_LABEL_MIN_ZOOM = 6;
+
+function TerritoryMarkers({ isDark }) {
+  const [zoom, setZoom] = useState(3);
+  const map = useMapEvents({ zoomend: () => setZoom(map.getZoom()) });
+  useEffect(() => { setZoom(map.getZoom()); }, [map]);
+
+  const showLabel = zoom >= TERRITORY_LABEL_MIN_ZOOM;
+  const dot = 8;
+
+  return VN_TERRITORIES.map(place => {
+    const icon = L.divIcon({
+      className: '',
+      html: `<div style="display:flex; align-items:center; gap:5px; white-space:nowrap; transform:translate(-${dot / 2}px,-${dot / 2}px);">
+        <span style="width:${dot}px; height:${dot}px; border-radius:50%; background:#da251d; border:1.5px solid #ffcd00; box-shadow:0 1px 5px rgba(0,0,0,0.5);"></span>
+        ${showLabel ? `<span style="font-size:11px; font-weight:600; color:${isDark ? '#f0f4f8' : '#2a2a2a'}; text-shadow:0 1px 3px rgba(0,0,0,0.7), 0 0 5px rgba(255,255,255,0.55);">${place.name}</span>` : ''}
+      </div>`,
+      iconSize: showLabel ? [90, dot] : [dot, dot],
+      iconAnchor: [dot / 2, dot / 2],
+    });
+    return <Marker key={place.id} position={[place.lat, place.lng]} icon={icon} interactive={false} />;
+  });
 }
 
 // ── Marker layer (inside MapContainer context) ────────────────
@@ -191,6 +225,7 @@ function Travel() {
           <TileLayer
             url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager_only_labels/{z}/{x}/{y}{r}.png"
           />
+          <TerritoryMarkers isDark={isDark} />
           <CityMarkers
             isDark={isDark}
             selected={selection?.city}

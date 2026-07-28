@@ -2,6 +2,7 @@ import React, { Suspense, lazy, useCallback, useEffect, useRef, useState } from 
 import { Canvas } from '@react-three/fiber';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
+import { usePortalTransition } from '../../context/PortalTransitionContext';
 import useReducedMotion from './useReducedMotion';
 import { OBJECTS, getObject } from './sectionTargets';
 import './Hero3D.css';
@@ -18,6 +19,7 @@ function clearTimers(ref) {
 export default function Hero3D({ avatarSrc }) {
   const reducedMotion = useReducedMotion();
   const navigate = useNavigate();
+  const { runTransition } = usePortalTransition();
   const [focusId, setFocusId] = useState(null);
   const [bootStep, setBootStep] = useState(0);
   const [terminalOpen, setTerminalOpen] = useState(false);
@@ -44,7 +46,7 @@ export default function Hero3D({ avatarSrc }) {
     });
   };
 
-  const handleActivate = useCallback((id) => {
+  const handleActivate = useCallback((id, origin) => {
     const obj = getObject(id);
     if (!obj) return;
     clearTimers(timers);
@@ -61,7 +63,9 @@ export default function Hero3D({ avatarSrc }) {
         }
         break;
       case 'route':
-        after(ZOOM_MS, () => navigate(obj.to));
+        // Camera dollies into the object first, then the swirl "portal" wipe
+        // covers the screen and the route swap happens hidden underneath it.
+        after(ZOOM_MS, () => runTransition(origin, () => navigate(obj.to)));
         break;
       case 'anchor':
         after(ZOOM_MS, () => {
@@ -87,7 +91,7 @@ export default function Hero3D({ avatarSrc }) {
         setFocusId(null);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [bootStep, navigate, reducedMotion, after]);
+  }, [bootStep, navigate, reducedMotion, after, runTransition]);
 
   const closeTerminal = () => {
     setTerminalOpen(false);
@@ -137,7 +141,7 @@ export default function Hero3D({ avatarSrc }) {
             key={obj.id}
             type="button"
             className={`hero3d-chip${focusId === obj.id ? ' is-active' : ''}`}
-            onClick={() => handleActivate(obj.id)}
+            onClick={(e) => handleActivate(obj.id, { x: e.clientX, y: e.clientY })}
             aria-label={obj.hint}
           >
             {obj.label}
@@ -176,7 +180,15 @@ export default function Hero3D({ avatarSrc }) {
                 <p>&gt; ls research/</p>
                 <p>LLMs&nbsp;&nbsp;Trustworthy-AI&nbsp;&nbsp;Safety-AI</p>
                 <p>&gt; open activities/</p>
-                <button type="button" className="hero3d-terminal-link" onClick={() => { closeTerminal(); navigate('/activities'); }}>
+                <button
+                  type="button"
+                  className="hero3d-terminal-link"
+                  onClick={(e) => {
+                    const origin = { x: e.clientX, y: e.clientY };
+                    closeTerminal();
+                    runTransition(origin, () => navigate('/activities'));
+                  }}
+                >
                   Enter ↵ view activities
                 </button>
               </div>

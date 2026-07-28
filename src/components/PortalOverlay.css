@@ -1,0 +1,46 @@
+.portal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+.portal-clip {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  background: #05030a;
+}
+
+.portal-swirl {
+  position: absolute;
+  inset: -60%;
+  width: 220%;
+  height: 220%;
+  background: conic-gradient(
+    from 0deg,
+    #1b1330,
+    #a78bfa,
+    #1b1330,
+    #64a5ff,
+    #1b1330,
+    #f472b6,
+    #1b1330,
+    #7bb3ff,
+    #1b1330
+  );
+}
+
+/* Dark event-horizon center over the swirl, so the color reads as a glowing
+   accretion ring around a black hole rather than a solid rainbow disc. */
+.portal-core {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at 50% 50%,
+    #05030a 0%,
+    #05030a 32%,
+    rgba(5, 3, 10, 0.88) 42%,
+    rgba(10, 7, 18, 0) 60%
+  );
+}
