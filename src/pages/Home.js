@@ -1,4 +1,5 @@
 import React, { Suspense, lazy } from 'react';
+import { Link } from 'react-router-dom';
 import { WebIcon, MLIcon, CodeIcon, GitHubIcon, GoogleScholarIcon, EmailIcon } from '../components/Icons';
 import CalendarBadge from '../components/CalendarBadge';
 import avatarImage from '../assets/Homepage_avatar.png';
@@ -109,6 +110,10 @@ function Home() {
       <section className="home-section" id="news-updates">
         <h2 className="section-heading">News & Updates</h2>
         <ul className="news-list">
+          <li>
+            <CalendarBadge date="17 Aug 2026" />
+            <span className="news-content">Took a short <strong>healing trip to Sapa</strong> on 16–17 Aug 2026 to clear my head before starting my PhD journey — check out the photos in the <Link to="/travel">Travel</Link> section!</span>
+          </li>
           <li>
             <CalendarBadge date="17 Jun 2026" />
             <span className="news-content">My paper titled <strong>"The impact of financial distress on earnings management: Evidence from Vietnam"</strong> in collaboration with <i>Mrs. Trang Do Thi Van</i> has been accepted for Investment Management and Financial Innovations (Q3)! This is a great motivation for me to continue publishing more high-quality articles in the field of Finance in the future.</span>

@@ -32,11 +32,6 @@
   font-weight: 700;
   letter-spacing: 0.07em;
   color: #fff;
-  background: linear-gradient(135deg, #a78bfa 0%, #8b5cf6 100%);
-}
-
-[data-theme="dark"] .cal-month {
-  background: linear-gradient(135deg, #6496ff 0%, #4a9eff 100%);
 }
 
 .cal-badge-md .cal-month { font-size: 0.6rem; }
