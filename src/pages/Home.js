@@ -111,10 +111,6 @@ function Home() {
         <h2 className="section-heading">News & Updates</h2>
         <ul className="news-list">
           <li>
-            <CalendarBadge date="25 Aug 2026" />
-            <span className="news-content">My paper titled <strong>"Impact of ESG Responsibility Performance on Corporate Resilience: The case of listed companies in Vietnam"</strong> in collaboration with <i>Mrs. Trang Do Thi Van</i>, <i>Mrs. Huyen Giang Thi Thu</i>, <i>Chi Kim Nguyen</i>, and other researchers has been accepted for Journal of Economics, Finance And Management Studies!</span>
-          </li>
-          <li>
             <CalendarBadge date="17 Aug 2026" />
             <span className="news-content">Took a short <strong>healing trip to Sapa</strong> on 16–17 Aug 2026 to clear my head before starting my PhD journey — check out the photos in the <Link to="/travel">Travel</Link> section!</span>
           </li>
